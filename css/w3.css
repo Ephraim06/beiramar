@@ -8,6 +8,23 @@ html {
   box-sizing: inherit;
 }
 
+@media only screen and (max-width: 600px) {
+.beiramar-logo {
+  width: 40% !important;
+  height: auto;
+  margin: 10px 0 0 0 !important;
+  padding: 0 !important;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .beiramar-logo {
+    width: 15% !important;
+    margin: 10px 0 0 0 !important;
+    padding: 0% !important;
+  }
+}
+
 /* agent section */
 .contact-profile {
   display: flex;
@@ -685,7 +702,7 @@ em {
 }
 
 .nav-link {
-  color: #fff;
+  color: #333 !important;
 }
 .nav-icon{
   color: #007EC9 !important;
@@ -705,7 +722,7 @@ em {
 }
 
 .nav-link:hover {
-  color: rgb(242, 223, 174) !important; /* Text color on hover */
+  color: #007EC9 !important; /* Text color on hover */
 }
 
 .navbar-toggler, .btn-close {
@@ -1305,7 +1322,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.32);
     transition: background-color 0.3s ease-in-out;
   }
 
