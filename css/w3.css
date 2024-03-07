@@ -708,11 +708,11 @@ em {
   color: #007EC9 !important;
 }
 
-@media only screen and (min-width: 782px) {
+/* @media only screen and (min-width: 782px) {
   .nav-icon {
     display: none !important;
   }
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .nav-icon-social {
