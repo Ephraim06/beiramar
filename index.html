@@ -66,7 +66,7 @@
     <div class="container px-4 px-lg-5">
       <!-- <a class="navbar-brand dancing-script" href="#page-top">BEIRAMAR | Apartments
       </a> -->
-    <img src="img/logos/Beiramar-nobg.png" class="beiramar-logo" alt="">
+      <img src="img/logos/Beiramar-nobg.png" class="beiramar-logo" alt="">
       <button class="navbar-btn navbar-toggler navbar-toggler-right" class="btn btn-primary" type="button"
         data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
         <i class="navbar-icon fa-solid fa-bars"></i>
@@ -86,12 +86,13 @@
             <a class="nav-link" href="#pre-qualification">Pre-Qualification</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documents
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Documents
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a href="assets/documents/" download="KDV-OfferToPurchase.pdf" class="dropdown-item"
-                  id="download-link"><i class="nav-icon fa-solid fa-download"></i> Beiramar | Offer to Purchase</a>
+                <a href="assets/documents/" download="Beiramar-otp" class="dropdown-item" id="download-link"><i
+                    class="nav-icon fa-solid fa-download"></i> Beiramar | Offer to Purchase</a>
 
               </li>
               <li>
@@ -129,8 +130,8 @@
           <li>
             <hr class="dropdown-divider" />
           </li>
-          <a href="assets/documents/Beiramar-CMA-Info-report.pdf"
-            download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
+          <a href="assets/documents/Beiramar-CMA-Info-report.pdf" download="building-specifications"
+            class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
             Annexure E - CMA Info Page Ident...</a>
           </li>
           <li>
@@ -154,6 +155,18 @@
     </div>
   </nav>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+      if (window.location.hash) {
+        const id = window.location.hash; // Get the hash (including the #)
+        const element = document.querySelector(id);
+        if (element) {
+          element.scrollIntoView(); // Scroll to the element
+        }
+      }
+    });
+  </script>
+
   <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
     aria-labelledby="staticBackdropLabel">
     <div class="offcanvas-header">
@@ -169,7 +182,7 @@
             <a class="nav-link" href="index.html"><i class="nav-icon fa-solid fa-house"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#location"><i class="nav-icon fa-solid fa-location-arrow"></i> Location</a>
+            <a class="nav-link" href="index.html#location"><i class="nav-icon fa-solid fa-location-arrow"></i> Location</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#sales-launch"><i class="nav-icon fa-solid fa-rocket"></i> Sales Launch</a>
@@ -276,7 +289,7 @@
     <div class="w3-container" id="about">
       <div class="container-img-right">
         <div class="content">
-          <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h6>
+          <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">| About</h6>
           <h1>Beiramar Apartments: Luxury Living on Coral Road</h1>
           <p>
             Announcing the latest and most prestigious development in town - luxurious beachfront apartments boasting 2
@@ -317,7 +330,7 @@
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-      <h6>First Floor</h6>
+      <h6>| First Floor</h6>
       <table class="table table-striped">
         <thead>
           <tr>
@@ -374,7 +387,7 @@
           </tr>
         </tbody>
       </table>
-      <h6>Second Floor</h6>
+      <h6>| Second Floor</h6>
       <table class="table table-striped">
         <thead>
           <tr>
@@ -459,7 +472,7 @@
           </tr>
         </tbody>
       </table>
-      <h6>Third Floor</h6>
+      <h6>| Third Floor</h6>
       <table class="table table-striped">
         <thead>
           <tr>
@@ -504,7 +517,7 @@
           </tr>
         </tbody>
       </table>
-      <h6>Garage</h6>
+      <h6>| Garage</h6>
       <table class="table table-striped mx-auto">
         <thead>
           <tr>
@@ -548,7 +561,7 @@
   <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="w3-container w3-padding-32" id="gallery">
       <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">
-        Gallery
+      | Gallery
       </h6>
       <h1>Coral Road, Blouberg: Where Coastal Charm Meets Urban Convenience.</h1>
       <p class="w3-border-bottom w3-border-light-grey">
@@ -655,7 +668,7 @@
     <div id="location" class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
       <div class="w3-container w3-padding-32" id="location">
         <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">
-          Location
+        | Location
         </h6>
         <h1>
           Blouberg - Cape Town, is renowned for its picturesque views of Table Mountain.
@@ -745,7 +758,7 @@
     <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
       <div class="w3-container w3-padding-32" id="features">
         <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">
-          Highlight
+         | Highlight
         </h6>
         <h1>Building Features</h1>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
@@ -815,27 +828,29 @@
     </div>
     <!-- Highlight End -->
     <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-    <div class="w3-container w3-padding-32" id="gallery">
-    <div class="container-img-right">
-      <div class="content">
-        <div class="w3-container" id="lifestyle">
-          <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">
-            Lifestyle
-          </h6>
-          <h1>Buy-to-let or Buy-to-live</h1>
-          <p class="w3-padding-top-16">
-            Beiramar appeals to savvy investors, singles, young couples and professionals in search of a modern coastal
-            lifestyle intertwined with a lively community ambience. Whether you're seeking a permanent residence or a
-            lucrative investment venture, Beiramar provides the perfect fusion of both worlds.
-          </p>
+      <div class="w3-container w3-padding-32" id="gallery">
+        <div class="container-img-right">
+          <div class="content">
+            <div class="w3-container" id="lifestyle">
+              <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+               | Lifestyle
+              </h6>
+              <h1>Buy-to-let or Buy-to-live</h1>
+              <p class="w3-padding-top-16">
+                Beiramar appeals to savvy investors, singles, young couples and professionals in search of a modern
+                coastal
+                lifestyle intertwined with a lively community ambience. Whether you're seeking a permanent residence or
+                a
+                lucrative investment venture, Beiramar provides the perfect fusion of both worlds.
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img class="img-fluid" src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg"
+              alt="young-people-smiling" />
+          </div>
         </div>
       </div>
-      <div class="image">
-        <img class="img-fluid" src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg"
-          alt="young-people-smiling" />
-      </div>
-    </div>
-    </div>
     </div>
 
     <!-- Liftstyle Start -->
@@ -856,8 +871,191 @@
     </div>
     <!-- Liftstyle Start -->
 
-    <!-- Listing Card Start -->
+<!-- Listing Card Start -->
     <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="w3-container w3-padding-top-32">
+        <div class="section best-deal bg-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="section-heading text-start mb-5">
+                  <h6>| Lifestyle</h6>
+                  <h2>Building Highlights</h2>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="tabs-content">
+                  <div class="row">
+                    <div class="nav-wrapper">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa"
+                            type="button" role="tab" aria-controls="villa" aria-selected="true">
+                            3 Bedroom Apartment
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link border mt-2" id="appartment-tab" data-bs-toggle="tab"
+                            data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment"
+                            aria-selected="false">
+                            2 Bedroom Apartment
+                          </button>
+                        </li>
+                        <!-- <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="penthouse-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#penthouse"
+                        type="button"
+                        role="tab"
+                        aria-controls="penthouse"
+                        aria-selected="false">
+                        Penthouse
+                      </button>
+                    </li> -->
+                      </ul>
+                    </div>
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <div class="info-table">
+                              <ul>
+                                <li>Bedrooms <span>2</span></li>
+                                <li>Bathrooms <span>2</span></li>
+                                <li>Floor Size <span>60m&sup2+</span></li>
+                                <li>Balcony Size <span>20m&sup2+</span></li>
+                                <li>Parking Available <span>Yes</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <img src="img/renders/Lounge_1.png" class="img-fluid" alt="" />
+                          </div>
+                          <div class="col-lg-3">
+                            <h4><strong>2 BEDROOM UNITS</strong></h4>
+                            <p>
+                              Experience refined living in our 2-bedroom, 2-bathroom apartment units, designed to offer
+                              both comfort and elegance.
+                              <br /><br />With the convenience of two bathrooms, including a master ensuite, and ample
+                              living space, these units offer the perfect blend of luxury and functionality.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade show active" id="villa" role="tabpanel" aria-labelledby="villa-tab">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <div class="info-table">
+                              <ul>
+                                <li>Bedrooms <span>3</span></li>
+                                <li>Bathrooms <span>2</span></li>
+                                <li>Floor Size <span>80m&sup2+</span></li>
+                                <li>Balcony Size <span>20m&sup2+</span></li>
+                                <li>Parking Available <span>Yes</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <img src="img/renders/Balcony_1.png" class="img-fluid" alt="" />
+                          </div>
+                          <div class="col-lg-3">
+                            <h4><strong>3 BEDROOM UNITS</strong></h4>
+                            <p>
+                              Indulge in luxury living with our exquisite 3-bedroom, 2-bathroom apartment units, some of
+                              which offer breathtaking views of the sea and Table Mountain.
+                            </p>
+                            <button id="viewFloorPlansBtn" class="modal-btn w3-padding-16">
+                              <i class="fa-solid fa-eye"></i> View Floor Plans
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div
+                    class="tab-pane fade"
+                    id="penthouse"
+                    role="tabpanel"
+                    aria-labelledby="penthouse-tab">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="info-table">
+                          <ul>
+                            <li>Total Flat Space <span>320 m2</span></li>
+                            <li>Floor number <span>34th</span></li>
+                            <li>Number of rooms <span>6</span></li>
+                            <li>Parking Available <span>Yes</span></li>
+                            <li>Payment Process <span>Bank</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <img src="assets/images/deal-03.jpg" alt="" />
+                      </div>
+                      <div class="col-lg-3">
+                        <h4>Extra Info About Penthouse</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, do eiusmod tempor pack incididunt ut labore et
+                          dolore magna aliqua quised ipsum suspendisse.
+                          <br /><br />Swag fanny pack lyft blog twee. JOMO
+                          ethical copper mug, succulents typewriter shaman DIY
+                          kitsch twee taiyaki fixie hella venmo after messenger
+                          poutine next level humblebrag swag franzen.
+                        </p>
+                        <div class="icon-button">
+                          <a href="property-details.html"
+                            ><i class="fa fa-calendar"></i> Schedule a visit</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Floor Plan Modal Start -->
+    <div class="modal fade" id="floorPlanModal" tabindex="-1" role="dialog" aria-labelledby="scrollableModalTitle"
+      data-bs-backdrop="static" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="scrollableModalTitle">Floor Plan</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <h6 id="scrollspyHeading2">First Floor</h6>
+              <img class="card-img-top" src="img/floor-plan-imgs/first-floor.jpg" alt="first_second_floor" /><br />
+            </div>
+            <hr />
+            <div>
+              <h6 id="scrollspyHeading3">Second Floor</h6>
+              <img class="card-img-top" src="img/floor-plan-imgs/second-floor.jpg" alt="third_floor" />
+            </div>
+            <hr />
+            <div>
+              <h6 id="scrollspyHeading1">Third Floor</h6>
+              <img class="card-img-top" src="img/floor-plan-imgs/third-floor.jpg" alt="ground floor" />
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Floor Plan Modal End -->
+
+    <!-- Listing Card End -->
+
+
+    <!-- Listing Card Start -->
+    <!-- <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
       <div class="w3-container w3-padding-top-32">
         <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">
           Lifestyle
@@ -913,7 +1111,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Listing Card End -->
 
     <!-- Floor Plan Modal Start -->
@@ -1186,45 +1384,45 @@
           <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <table class="table table-striped mx-auto">
-        <thead>
-          <tr>
-            <th scope="col">No.</th>
-            <th scope="col">Size</th>
-            <th scope="col">Price</th>
-            <th scope="col">State</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><i class="fa-solid fa-warehouse"></i> 1</td>
-            <td>18m&sup2</td>
-            <td>R350 000</td>
-            <td>
-              <span class="badge text-bg-success">Available</span>
-            </td>
-          </tr>
-          <tr>
-            <td><i class="fa-solid fa-warehouse"></i> 2</td>
-            <td>18m&sup2</td>
-            <td>R350 000</td>
-            <td>
-              <span class="badge text-bg-success">Available</span>
-            </td>
-          </tr>
-          <tr>
-            <td><i class="fa-solid fa-warehouse"></i> 3</td>
-            <td>18m&sup2</td>
-            <td>R350 000</td>
-            <td>
-              <span class="badge text-bg-success">Available</span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+                <thead>
+                  <tr>
+                    <th scope="col">No.</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">State</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><i class="fa-solid fa-warehouse"></i> 1</td>
+                    <td>18m&sup2</td>
+                    <td>R350 000</td>
+                    <td>
+                      <span class="badge text-bg-success">Available</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><i class="fa-solid fa-warehouse"></i> 2</td>
+                    <td>18m&sup2</td>
+                    <td>R350 000</td>
+                    <td>
+                      <span class="badge text-bg-success">Available</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><i class="fa-solid fa-warehouse"></i> 3</td>
+                    <td>18m&sup2</td>
+                    <td>R350 000</td>
+                    <td>
+                      <span class="badge text-bg-success">Available</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-    </div>
     </div>
     <!-- ACCODION END -->
 
