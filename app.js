@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
   // Set the launch date (YYYY, MM, DD, HH, MM, SS)
-  const launchDate = new Date(2024, 2, 4, 12, 0, 0).getTime();
+  const launchDate = new Date(2024, 3, 1, 12, 0, 0).getTime();
 
   // Function to update the countdown timer
   function updateCountdown() {
