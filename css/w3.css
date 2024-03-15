@@ -42,7 +42,7 @@ Best Deal Style
 
 .best-deal .tabs-content .nav-tabs .nav-link.active {
   background-color: #007EC9 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .best-deal .tabs-content ul.nav-tabs {
@@ -277,6 +277,10 @@ body {
   margin: 10px 0 0 0 !important;
   padding: 0 !important;
 }
+.iphone-img {
+  width: 100% !important;
+  height: auto;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -285,6 +289,10 @@ body {
     margin: 10px 0 0 0 !important;
     padding: 0% !important;
   }
+  .iphone-img{
+  width: 60% !important;
+  height: auto;
+}
 }
 
 /* agent section */
