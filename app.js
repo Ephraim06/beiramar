@@ -206,3 +206,28 @@ $('.menu-toggle').click(function(){
         // Add any Fancybox options or customization here
       });
     });
+
+ 
+    // Get references to offcanvas and navigation links
+    const offcanvas = document.getElementById('staticBackdrop');
+    const navLinks = offcanvas.querySelectorAll('.nav-link');
+
+    // Add event listeners to each navigation link
+    navLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+            // Close the offcanvas menu
+            const bsOffcanvas = new bootstrap.Offcanvas(offcanvas);
+            bsOffcanvas.hide();
+
+            // Scroll to the target element
+            event.preventDefault();
+            const targetId = link.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start' // Scrolls to the top of the target element
+                });
+            }
+        });
+    });

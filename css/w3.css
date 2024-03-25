@@ -409,14 +409,11 @@ body {
   padding: 20px;
 }
 }
-
 .offcanvas {
   height: 100% !important;
   width: 100% !important;
 }
-
 @media only screen and (min-width: 768px) {
-
   /* Change size and shape */
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
@@ -427,6 +424,9 @@ body {
     /* Makes them circular */
     border-color: #007EC9 !important;
     border-style: solid;
+  }
+  .card {
+    width: 200px !important;
   }
 }
 
