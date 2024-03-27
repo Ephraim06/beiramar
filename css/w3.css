@@ -1316,8 +1316,6 @@ strong {
     margin-left: 10px;
 }
 
-.card {
-}
 
 .w3-wide {
   letter-spacing: 4px;
@@ -1521,6 +1519,7 @@ hr {
   }
   .card {
     padding: 2% !important;
+    width: 600px !important;
   }
 }
 
