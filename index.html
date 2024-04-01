@@ -67,8 +67,8 @@
       <!-- <a class="navbar-brand dancing-script" href="#page-top">BEIRAMAR | Apartments
       </a> -->
       <img src="img/logos/Beiramar-4.1.png" class="beiramar-logo" alt="">
-      <button class="navbar-btn navbar-toggler navbar-toggler-right" type="button"
-        data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+      <button class="navbar-btn navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
         <i class="navbar-icon fa-solid fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -77,7 +77,7 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html/location">Location</a>
+            <a class="nav-link" href="#location">Location</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#sales-launch">Sales Launch</a>
@@ -93,7 +93,6 @@
               <li>
                 <a href="assets/documents/" download="Beiramar-otp" class="dropdown-item" id="download-link"><i
                     class="nav-icon fa-solid fa-download"></i> Beiramar | Offer to Purchase</a>
-
               </li>
               <li>
               <li>
@@ -142,6 +141,14 @@
             download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
             Annexure F - NHBRC</a>
           </li>
+          <li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <a href="assets/documents/BEIRAMAR - PRODUCT SPECIFICATION SHEET.pdf" download="building-specifications"
+            class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
+            BEIRAMAR - Product Specification</a>
+          </li>
         </ul>
         </li>
         <li class="nav-item">
@@ -155,7 +162,7 @@
     </div>
   </nav>
 
-  <script>
+  <!-- <script>
     document.addEventListener("DOMContentLoaded", (event) => {
       if (window.location.hash) {
         const id = window.location.hash; // Get the hash (including the #)
@@ -165,10 +172,10 @@
         }
       }
     });
-  </script>
+  </script> -->
 
-  <div class="offcanvas offcanvas-menu offcanvas-start" data-bs-scroll="true" data-bs-scroll="static" tabindex="-1" id="staticBackdrop"
-    aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas offcanvas-menu offcanvas-start" data-bs-scroll="true" tabindex="-1"
+    id="staticBackdrop" aria-labelledby="staticBackdropLabel">
     <div class="offcanvas-header">
       <!-- <h3 class="offcanvas-title w3-padding-16" id="staticBackdropLabel"><strong>BEIRAMAR | Apartments</strong></h3> -->
       <img src="img/logos/Beiramar-4.1.png" id="staticBackdropLabel" class="beiramar-logo offcanvas-title" alt="">
@@ -237,7 +244,7 @@
           <li>
             <hr class="dropdown-divider" />
           </li>
-          <a href="https://drive.google.com/uc?export=download&id=1Cdmcfe4QUr9lIHHG_b2o2QQvzbqcBTpk"
+          <a href="assets/documents/Beiramar-CMA-Info-report.pdf"
             download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
             Annexure E - CMA Info Page Ident...</a>
           </li>
@@ -248,6 +255,14 @@
           <a href="https://drive.google.com/uc?export=download&id=1IJR29X2MpyOYdqXJsLV1WLa7RrbUIE_O"
             download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
             Annexure F - NHBRC</a>
+          </li>
+          <li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <a href="assets/documents/BEIRAMAR - PRODUCT SPECIFICATION SHEET.pdf" download="building-specifications"
+            class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
+            BEIRAMAR - Product Specification</a>
           </li>
         </ul>
         </li>
@@ -494,13 +509,13 @@
             </td>
           </tr>
           <tr>
-            <td>13</td>
-            <td>60m&sup2</td>
-            <td><i class="fa-solid fa-bed"></i> 2</td>
-            <td><i class="fa-solid fa-bath"></i> 2</td>
-            <td>R3,195,000</td>
+            <td class="pending-status">13</td>
+            <td class="pending-status">60m&sup2</td>
+            <td class="pending-status"><i class="fa-solid fa-bed"></i> 2</td>
+            <td class="pending-status"><i class="fa-solid fa-bath"></i> 2</td>
+            <td class="pending-status">R3,195,000</td>
             <td>
-              <span class="badge text-bg-success">Available</span>
+              <span class="badge text-bg-warning">Pending</span>
             </td>
           </tr>
           <tr>
@@ -1365,13 +1380,13 @@
                       </td>
                     </tr>
                     <tr>
-                      <td>13</td>
-                      <td>60m&sup2</td>
-                      <td><i class="fa-solid fa-bed"></i> 2</td>
-                      <td><i class="fa-solid fa-bath"></i> 2</td>
-                      <td>R3,195,000</td>
+                      <td class="pending-status">13</td>
+                      <td class="pending-status">60m&sup2</td>
+                      <td class="pending-status"><i class="fa-solid fa-bed"></i> 2</td>
+                      <td class="pending-status"><i class="fa-solid fa-bath"></i> 2</td>
+                      <td class="pending-status">R3,195,000</td>
                       <td>
-                        <span class="badge text-bg-success">Available</span>
+                        <span class="badge text-bg-warning">Pending</span>
                       </td>
                     </tr>
                     <tr>
@@ -1773,11 +1788,11 @@
                     src="https://www.euronouveau.co.za/images/euro-nouveau-logo.png" alt="euro-nouveau" />
                 </a>
               </div>
-              <div class="sponsors-col col">
+              <!-- <div class="sponsors-col col">
                 <a href="#">
                   <img class="sponsors rounded" src="img/sponsors/dev-logo.jpg" alt="developer" />
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -1965,6 +1980,7 @@
         });
       });
     </script>
+    
 </body>
 
 </html>

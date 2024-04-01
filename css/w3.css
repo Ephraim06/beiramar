@@ -374,6 +374,10 @@ body {
       --bs-dropdown-min-width: 25rem !important;
       left: 0 !important;
     }
+  .offcanvas-menu {
+  height: 100% !important;
+  width: 80% !important;
+}
 }
 
 
@@ -826,6 +830,11 @@ em {
 .sold-status {
   color: red !important;
   text-decoration: line-through !important;
+}
+
+.pending-status {
+  color: orange !important;
+  text-decoration: wavy !important;
 }
 
 /* BUILDING HIGHLIGHT */
